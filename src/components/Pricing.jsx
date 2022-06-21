@@ -6,7 +6,7 @@ import pricing2 from "assets/pricing2.png";
 import play from "assets/play.png";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
-import { pricingAnimation } from "animation";
+import { pricingAnimation } from "../animation";
 
 function Pricing() {
   const [element, controls] = useScroll();

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { BsFacebook, BsTwitter, BsYoutube, BsBehance } from 'react-icons/bs';
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
-import { footerTextAnimation } from "animation";
+import { footerTextAnimation } from "../animation";
 
 function Footer() {
   const [element, controls] = useScroll();

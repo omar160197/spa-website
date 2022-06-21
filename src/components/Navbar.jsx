@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { useScroll } from "components/useScroll";
 import { motion } from "framer-motion";
-import { navAnimation } from "animation";
+import { navAnimation } from "../animation";
 
 
 function Navbar() {

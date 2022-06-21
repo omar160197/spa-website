@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Title from './Title';
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
-import { contactAnimation } from "animation";
+import { contactAnimation } from "../animation";
 
 function Contact() {
   const [element, controls] = useScroll();

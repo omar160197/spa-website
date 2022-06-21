@@ -7,7 +7,7 @@ import play from "assets/play.png";
 import Title from './Title';
 import { useScroll } from "components/useScroll";
 import { motion } from "framer-motion";
-import { servicesAnimations } from "animation";
+import { servicesAnimations } from "../animation";
 
 function Services() {
   const [element, controls] = useScroll();

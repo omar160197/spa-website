@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Title from './Title';
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
-import { skillsBarAnimation } from "animation";
+import { skillsBarAnimation } from "../animation";
 
 function Skills() {
   const [element, controls] = useScroll();

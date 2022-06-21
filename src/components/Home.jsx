@@ -4,7 +4,7 @@ import home from "assets/home.png";
 import play from "assets/play.png";
 import Navbar from './Navbar';
 import { motion } from "framer-motion";
-import { homeAnimation, homeInfoAnimation } from "animation";
+import { homeAnimation, homeInfoAnimation } from "../animation";
 
 function Home() {
   return (

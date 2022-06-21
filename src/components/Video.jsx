@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { videoAnimations } from "animation";
+import { videoAnimations } from "../animation";
 import { useScroll } from "./useScroll";
 
 function Video() {

@@ -3,7 +3,7 @@ import loadmore from "assets/loadmore.png";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
-import { testimonialsAnimations } from "animation";
+import { testimonialsAnimations } from "../animation";
 
 function Testimonials() {
   const [element, controls] = useScroll();
